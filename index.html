@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <!-- CodeFlow Übung Projekt: Einkommenssteuer -->
+    <form action="">
+        <section>
+        <label for="Brutto">Brutto-Gehalt für Person 1</label>
+            <input type="text"  name="Brutto" id="Hunde_brutto_input_Person1">
+            <label for="Brutto">Brutto-Gehalt für Person 2</label>
+            <input type="text"  name="Brutto" id="Hunde_brutto_input_Person2">
+            <input type="button" value="Steuer 2020" id="Rechner2020" name="Rechner2020" onclick="HundeRechner2020()">
+            <input type="button" value="Steuer 2019" id="Rechner2019" name="Rechner2019" onclick="HundeRechner2019()">
+            <input type="button" value="Steuer 2018" id="Rechner2018" name="Rechner2018" onclick="HundeRechner2018()">
+        </section>
+        
+        <h1 id="Hunde_brutto_output"></h1>
+        <h2 id="Hunde_netto_output"></h2>
+        <h3 id="Hunde_ESt_output"></h3>
+
+        <input type="reset" value="Reset" id="reset" name="reseted" onclick="HundeNeuStart()">
+    </form>
+    <!-- CodeFlow Übung Projekt: Einkommenssteuer -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
